@@ -9,7 +9,7 @@ OBJS			= $(SRCS:%.c=%.o)
 
 HEADER			= libft.h
 
-CC				= gcc
+CC				= cc
 RM				= rm -f
 FLAGS			= -Wall -Wextra -Werror -I$(HEADER)
 
